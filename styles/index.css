@@ -2,7 +2,7 @@ body {
   background-color: rgb(20, 42, 49);
 }
 h2 {
-  color: rgb(114, 114, 224);
+  color: rgb(199, 199, 238);
   margin-left: 50px;
   font-size: 100px;
 }
@@ -13,4 +13,13 @@ nav { margin-left: 50px;
 img { background-image: "images/madara-parma-Lfw8ZpYaOhg-unsplash.jpg";
 
 }
-button {margin-left: 50px;}
+button {margin-left: 50px;
+        size: 50px;
+
+}
+
+ul {
+    color: crimson;
+    margin-left: 50px;
+    font-size: 20px;
+}
