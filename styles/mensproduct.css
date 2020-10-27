@@ -19,3 +19,7 @@ button {
     padding: 15px 32px;
     cursor: pointer;
   }
+
+  footer {
+    margin-left: 25%;   
+}
