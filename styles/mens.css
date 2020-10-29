@@ -19,3 +19,9 @@ button {
       padding: 15px 32px;
       cursor: pointer;
     }
+body{
+      object-fit: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}

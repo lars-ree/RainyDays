@@ -4,7 +4,8 @@ body {
 
 h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
+    }
+
 button {
     display: inline-block;
     border-radius: 50px;
@@ -18,4 +19,12 @@ button {
     border: none;
     padding: 15px 32px;
     cursor: pointer;
+  }
+
+  img {
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
   }

@@ -1,8 +1,7 @@
 body {
     background-color: rgb(255, 255, 255);
 }
-head { font-size: larger;
-}
+
 
 h1  {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 28px;
@@ -23,4 +22,19 @@ button { display: inline-block;
          border: none;
          padding: 15px 32px;
          cursor: pointer;
+}
+body {
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+nav {
+    margin-left: 50px;
+}
+img {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

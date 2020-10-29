@@ -11,16 +11,14 @@ nav {
   margin-left: 50px;
 }
 
-img{
-  background: "images/madara-parma-Lfw8ZpYaOhg-unsplash.jpg";
-  background-size: 500px 500px; 
-  background-position: right bottom, left top;
-}
+
+
 button {
   display: inline-block;
   border-radius: 50px;
   margin-left: 50px;
   margin-bottom: 10px;
+  margin-top: 10px;
   size: 50px;
   color: rgb(254, 254, 254);
   background-color: rgb(36, 65, 74);
@@ -29,4 +27,11 @@ button {
   border: none;
   padding: 15px 32px;
   cursor: pointer;
+}
+
+body{
+  object-fit: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
