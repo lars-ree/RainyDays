@@ -27,6 +27,7 @@ button {
   border: none;
   padding: 15px 32px;
   cursor: pointer;
+  opacity: 78%;
 }
 
 body{

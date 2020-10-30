@@ -41,4 +41,10 @@ img {
 
 .navbar{
     margin-left: 56px;
+    
+    display: grid;
+    padding: 0;
+    list-style: none;
+
+
 }
