@@ -25,6 +25,12 @@ button {
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
+      
 
-
+  }
+  header {
+      margin-left: 50px;
+  }
+  div {
+      margin-left: 50px;
   }

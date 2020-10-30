@@ -31,10 +31,14 @@ body {
 
 }
 nav {
-    margin-left: 50px;
+    margin-left: 5px;
 }
 img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navbar{
+    margin-left: 56px;
 }
