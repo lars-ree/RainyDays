@@ -30,21 +30,9 @@ body {
     background-size: cover;
 
 }
-nav {
-    margin-left: 5px;
-}
+
 img {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.navbar{
-    margin-left: 56px;
-    
-    display: grid;
-    padding: 0;
-    list-style: none;
-
-
 }
