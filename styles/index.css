@@ -1,5 +1,7 @@
 
-
+.search {
+  float: right;
+}
 
 .cart {
   display: flex;
@@ -7,6 +9,7 @@
   background-repeat: no-repeat;
   background-position: center;
   float: right;
+
 
 }
 
