@@ -33,20 +33,30 @@
         </ul>
     </nav>
     
-  </body>
+  
   <main><div class="product">
     <img
     src="images/pexels-matt-hardy-2755165-1.jpg"
     height="50%"
     width="50%"
   />
-  <a href="checkoutcomplete.html"><button onclick="checkout">checkout</button></a>
+    <form action="checkoutcomplete.html">
+        <p>$199</p>
+        <input type="radio" id="small" name="size" value="small">
+        <label for="small"> s</label><br>
+        <input type="radio" id="medium" name="size" value="medium">
+        <label for="medium"> m</label><br>
+        <input type="radio" id="large" name="size" value="large">
+        <label for="large"> l</label><br>
+        
+    </form>
+    <a href="checkoutcomplete.html"><button onclick="checkout">checkout</button></a>
    
 </div>
   <div>  
   <p class="jacketinfo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi dicta amet repellendus, provident, quos, veniam nihil repudiandae unde dolorem suscipit quam quisquam molestias esse reiciendis ullam laudantium quo eum libero.
     </p>
-    <p>$199</p></div>
+    </div>
 </main>
 <footer>
     <ul class="social-media">
@@ -57,4 +67,5 @@
     </ul>
     <p class="footer-text">&copy 2020</p>
 </footer>
+</body>
 </html>
