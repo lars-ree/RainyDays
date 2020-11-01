@@ -66,10 +66,21 @@ nav {
     
 
 footer{
-    display: flex;
+    
    margin: 5px;
     justify-content: left;
 }
 .sosial-media-icon{
     justify-content: space-around;
+}
+
+.product{
+    align-items: center;
+
+}
+.jacketinfo{
+    contain: layout;
+}
+p{
+    margin-left: 20px;
 }
