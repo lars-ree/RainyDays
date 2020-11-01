@@ -1,48 +1,17 @@
-
-.search {
-  float: right;
-}
-
-
-
-
   
 
 
 body {
   background-color: rgb(254, 254, 254);
 }
-h1 {
-  color: rgb(78, 89, 39);
-  margin-left: 50px;
- display: none;
-  font-size: 50px;
+
   
-}
 
 
-
-
-button {
-  display: inline-flex;
-  border-radius: 50px;
-  margin-left: 50px;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  size: 50px;
-  color: rgb(254, 254, 254);
-  background-color: rgb(36, 65, 74);
-  text-align: center;
-  font-size: 20px;
-  border: none;
-  padding: 15px 32px;
-  cursor: pointer;
-  opacity: 78%;
-}
-
-body{
+main{
   object-fit: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+

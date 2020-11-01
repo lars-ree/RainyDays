@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <link rel="stylesheet" href="styles/global.css">
     <link rel="stylesheet" href="styles/cart.css" />
     <meta charset="UTF-8" />
     <meta name="viewporrt" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +13,7 @@
 
     <title>Cart</title>
   </head>
+  <h1>cart</h1>
   <body>
     <nav>
       <div class="logo">  <a href="index.html">
@@ -21,24 +23,13 @@
               width="150"
               height="60"
             />
-      
-      
       </div>
       <ul class="nav-links">
        
         <li><a href="mens.html">mens</a></li>
         <li><a href="womens.html">womens</a></li>
         <li><a href="explore.html">explore</a></li>
-      <li>
-      <div class="cart">
-        <a href="cart.html">
-        <img
-          src="images/Icon-shopping-cart.png"
-          alt="Icon-shopping-cart"
-          width="20"
-          height="20"
-          />
-        </li>
+        <li><a href="cart.html"><img src="images/Icon-shopping-cart.png" alt="Icon-shopping-cart" width="20" height="20"></a> </li>
         </ul>
     </nav>
     
@@ -46,11 +37,24 @@
   <main><div class="product">
     <img
     src="images/pexels-matt-hardy-2755165-1.jpg"
-    height="150px"
-    width="120px"
-  /> </div>
-    <p class="jacketinfo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi dicta amet repellendus, provident, quos, veniam nihil repudiandae unde dolorem suscipit quam quisquam molestias esse reiciendis ullam laudantium quo eum libero.
+    height="50%"
+    width="50%"
+  />
+  <a href="checkoutcomplete.html"><button onclick="checkout">checkout</button></a>
+   
+</div>
+  <div>  
+  <p class="jacketinfo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi dicta amet repellendus, provident, quos, veniam nihil repudiandae unde dolorem suscipit quam quisquam molestias esse reiciendis ullam laudantium quo eum libero.
     </p>
-    <p>$199</p>
+    <p>$199</p></div>
 </main>
+<footer>
+    <ul class="social-media">
+      <li><a href="facebook.com"><img src="images/Icon awesome-facebook-f.png" alt="facebook" width="25" height="20"></a></li>
+      <li><a href="instagram.com"><img src="images/Icon awesome-instagram.png" alt="instagram" width="25" height="20"></a></li>
+      <li><a href="youtube.com"><img src="images/Icon awesome-youtube.png" alt="youtube" width="25" height="20"></a></li>
+
+    </ul>
+    <p class="footer-text">&copy 2020</p>
+</footer>
 </html>
